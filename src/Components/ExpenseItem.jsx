@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import "./ExpenseItem.css";
+import "../Styles/ExpenseItem.css";
 import ExpenseDate from "./ExpenseDate.jsx";
 
 const ExpenseItem = (props) => {

@@ -1,5 +1,5 @@
-/* eslint-disable no-unused-vars */
-import "./ExpenseDate.css";
+/* eslint-disable react/prop-types */
+import "../Styles/ExpenseDate.css";
 
 const ExpenseDate = (props) => {
   const month = props.date.toLocaleString("en-US", { month: "long" });

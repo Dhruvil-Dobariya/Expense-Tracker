@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import "./NewExpense.css";
+import "../Styles/NewExpense.css";
 import ExpenseForm from "./ExpenseForm";
 
 const NewExpense = (props) => {

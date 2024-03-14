@@ -1,11 +1,10 @@
-/* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
 import ExpenseItem from "./ExpenseItem";
 
 const Expenses = (props) => {
   return (
     <div className="expenses">
-      {props.item.map(expense => (
+      {props.item.map((expense) => (
         <ExpenseItem
           key={expense.id}
           date={expense.date}

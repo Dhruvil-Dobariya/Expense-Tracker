@@ -1,12 +1,14 @@
 .new-expense {
   background-color: #a892ee;
-  padding: 1rem;
+  padding: 2rem;
   margin: 2rem auto;
-  width: 50rem;
-  min-width: 95%;
-  border-radius: 12px;
+  /* width: 50rem; */
+  /* min-width: 95%; */
+  /* border-radius: 12px; */
   text-align: center;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  width: 100vw;
+  height: 100%;
 }
 
 .new-expense button {
